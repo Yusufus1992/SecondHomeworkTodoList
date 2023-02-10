@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    cursor: pointer;
+  }
+  .container {
+    width: 336px;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .yellow {
+    height: 28px;
+    background-color: #ffdc40;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 13px;
+  }
+  
+  .container-main {
+    margin: auto;
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-family: "Arial", serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .sort {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+  }
+  .sort img {
+    width: 25px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .sort2 {
+    display: none;
+  }
+  input {
+    outline: none;
+  }
+  
+  .tasks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+  }
+  .task-text {
+    width: 100%;
+    border: none;
+    padding: 3px;
+  }
+  .delete {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 25px;
+    height: 20px;
+    border: none;
+  }
+  .delete:hover {
+    background-color: #833ae0;
+    color: white;
+  }
+  .task-list {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .add {
+    width: 150px;
+    height: 42px;
+    background-color: #833ae0;
+    border-radius: 71px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    cursor: pointer;
+  }
+  .plus {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #9953f1;
+  }
+  .btn-text {
+    margin-left: 20px;
+  }
+  .button-div {
+    margin-bottom: 19px;
+    height: min-content;
+  }
+  
+  .append-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding: 3px;
+  }
+  p:hover {
+    cursor: pointer;
+  }
+  .flex {
+    display: flex;
+  }
